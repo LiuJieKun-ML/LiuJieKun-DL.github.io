@@ -106,3 +106,20 @@ friends: [
         href: "https://www.zhihu.com/people/ssssssssam"
     }
 ]
+
+# Giteement 
+# 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
+# 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
+giteement:
+  enable: true  # 是否启用码云评论系统
+  # 是否使用官方js(false可以提升访问速度)
+  remote: false
+  redirect_uri: 'https://globien.gitee.io'   # 应用回调地址(请和配置的第三方应用保持一致)
+  # 不能更改(网上开源项目https://github.com/Rob--W/cors-anywhere作者提供的专门用来跨域服务器的配置)
+  oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
+  giteeID: 'LiuJieKun-DL'  # 你的码云账号英文名
+  # 存储评论的 repo name(需要在码云仓库创建公开仓库)
+  repo: 'Jiekun Liu'
+  gitment_oauth:
+    client_id: '82b268bacf2ab9a18d9353bf5c7a5add66c41b9702a1e61add134a57e1469ec3'           #client ID
+    client_secret: 'dc851c9b255705dce69bec00f4f9e7255f4fae96b30967f2e7d30dabc81d5aff'       #client secret
