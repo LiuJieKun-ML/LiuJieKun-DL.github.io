@@ -1,13 +1,13 @@
 # Site settings
-title: Globien Interlingu
-SEOTitle: Globien - Makes Communication Easier
+title: JieKun's Blog
+SEOTitle: My Dream is Sweet
 header-img: img/post-bg-desk.jpg
-email: globien@outlook.com
+email: liujiekun2002@outlook.com
 description: "Easy to learn, no more hard work to recite vocabulary."
 keyword: "Constructed Language, Ligua Franca, Interlingua, Globien"
-url: "https://globien.github.io"          # your host, for absolute URL
+url: "http://jiekun.ml"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/globien/globien.github.io.git" # you code repository
+github_repo: "https://LiuJieKun-DL.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +18,12 @@ sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-github_username:      globien
-# facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-# twitter_username:   qiubaiying
+# weibo_username:   
+zhihu_username:     ssssssssam
+github_username:      LiuJieKun-DL
+# facebook_username:  
+# jianshu_username:   
+# twitter_username:   
 
 
 
