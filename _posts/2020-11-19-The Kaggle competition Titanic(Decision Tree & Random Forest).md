@@ -67,7 +67,7 @@ estimator.fit(x_train,y_train)
 
 ## 4）Model evaluation
 
-#Method 1：Directly compare the true value and the predicted value
+# Method 1：Directly compare the true value and the predicted value
 
 y_predict = estimator.predict(x_test)
 
@@ -81,7 +81,7 @@ score = estimator.score(x_test, y_test)
 
 print("Accuracy is :", score)
 
-#Visualize decision tree
+# Visualize decision tree
 
 export_graphviz(estimator,out_file="titanic_tree.dot",feature_names=transfer.get_feature_names())
 
@@ -126,9 +126,9 @@ print("Best Estimator：\n",estimator.best_estimator_)
 print("Cross validation result：\n",estimator.cv_results_)
 
 
-# Till now you will have a better understaning of the procedure of training a machine learning model
+## Till now you will have a better understaning of the procedure of training a machine learning model
 
-# Copyrights Reserved by JieKun Liu
+## Copyrights Reserved by JieKun Liu
 
 
 
