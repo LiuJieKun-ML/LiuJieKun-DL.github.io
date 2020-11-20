@@ -88,28 +88,27 @@ header-img: "img/post-bg-rwd.jpg"
 </script>
 
 
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<!-- giteement评论系统 -->
+{% if site.giteement.enable %}
+<link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/default.css">
+<script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script>
 
-<div id="gitalk-container"></div>
+<div id="giteementDiv"></div>
     <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{727b2188578aad433889}}',
-    clientSecret: '{{4b0bbe57430d51cb9cb80b9c0d04718743464972}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
+    var giteement = new Giteement({
+      id: 'forum',
+      owner: '{{site.giteement.giteeID}}',
+      repo: '{{site.giteement.repo}}',
+      backcall_uri: '{{site.giteement.redirect_uri}}',
+      oauth_uri: '{{site.giteement.oauth_uri}}',
+      oauth: {
+        client_id: '{{site.giteement.gitment_oauth.client_id}}',
+        client_secret: '{{site.giteement.gitment_oauth.client_secret}}'
+      },
     });
-    gitalk.render('gitalk-container');
+    giteement.render('giteementDiv');
 </script>
 {% endif %}
-<!-- Gitalk end -->
-
  <!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
 
