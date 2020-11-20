@@ -19,12 +19,15 @@ import pandas as pd
 # 1.
 # Obtain Data
 path = "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt"
+
 titanic = pd.read_csv(path)
 
 titanic.head()
 
 # Filter Characteristic values and target values
+
 x = titanic[["pclass","age","sex"]]
+
 y = titanic["survived"]
 
 x.head()
