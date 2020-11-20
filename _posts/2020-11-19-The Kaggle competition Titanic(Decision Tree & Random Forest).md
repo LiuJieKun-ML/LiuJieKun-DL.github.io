@@ -7,7 +7,7 @@ author:     (JieKun Liu)
 header-img: img/the-first.png
 catalog:   true
 tags:
-    - 往事如烟
+    - Machine Learning
 ---
 
 By analyzing the information, the toughest task is to clean and find out the useful data.
