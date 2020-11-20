@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      (Using Decision Tree & Random Forest to predict the survival of Titanic)
-subtitle:   (Kaggle Competition)
+title:      Using Decision Tree & Random Forest to predict the survival of Titanic
+subtitle:   Kaggle Competition
 date:       2020-11-20
-author:     (JieKun Liu)
+author:     JieKun Liu
 header-img: img/the-first.png
 catalog:   true
 tags:
