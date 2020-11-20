@@ -41,14 +41,14 @@ x_test = transfer.transform(x_test)
 estimator = DecisionTreeClassifier(criterion="entropy",max_depth=8)
 estimator.fit(x_train,y_train)
 #4）Model evaluation
-# Method 1：Directly compare the true value and the predicted value
+#Method 1：Directly compare the true value and the predicted value
 y_predict = estimator.predict(x_test)
 print("y_predict\n", y_predict)
 print("Directly compare the true value and the predicted value\n", y_test == y_predict)
-# Method 2：Calculation accuracy
+#Method 2：Calculation accuracy
 score = estimator.score(x_test, y_test)
 print("Accuracy is :", score)
-# Visualize decision tree
+#Visualize decision tree
 export_graphviz(estimator,out_file="titanic_tree.dot",feature_names=transfer.get_feature_names())
 
 Random forest predicts the survival of the Titanic
@@ -63,12 +63,12 @@ estimator = RandomForestClassifier()
 param_dict = {"n_estimators":[100,200,300,500,800,1200],"max_depth":[5,8,15,25,30]}
 estimator = GridSearchCV(estimator,param_grid=param_dict,cv=3)
 estimator.fit(x_train,y_train)
-# 5) Model Evaluation
-# Method 1：Directly compare the true value and the predicted value
+#5) Model Evaluation
+#Method 1：Directly compare the true value and the predicted value
 y_predict = estimator.predict(x_test)
 print("y_predict\n",y_predict)
 print("Directly compare the true value and the predicted value\n",y_test==y_predict)
-# Method 2：Calculation accuracy
+#Method 2：Calculation accuracy
 score = estimator.score(x_test,y_test)
 print("Accuracy is :",score)
 print("Best Parameter：\n",estimator.best_params_)
