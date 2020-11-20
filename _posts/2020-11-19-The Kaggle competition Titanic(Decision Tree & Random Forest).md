@@ -10,13 +10,14 @@ tags:
     - 往事如烟
 ---
 
-（By analyzing the information, the toughest task is to clean and find out the useful data.
+By analyzing the information, the toughest task is to clean and find out the useful data.
 Then let's Begin!!!
 I ran this code in Jupyter Notebook, Colab is also a good choice!
 
 import pandas as pd
 
-# 1. Obtain Data
+# 1.
+# Obtain Data
 path = "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt"
 titanic = pd.read_csv(path)
 
@@ -128,7 +129,6 @@ print("Cross validation result：\n",estimator.cv_results_)
 # Till now you will have a better understaning of the procedure of training a machine learning model
 
 # Copyrights Reserved by JieKun Liu
-）
 
 
 
