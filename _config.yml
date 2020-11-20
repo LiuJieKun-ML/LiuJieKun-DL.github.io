@@ -4,7 +4,7 @@ SEOTitle: My Dream is Sweet
 header-img: img/post-bg-desk.jpg
 email: liujiekun2002@outlook.com
 description: "Easy to learn, no more hard work to recite vocabulary."
-keyword: "Constructed Language, Ligua Franca, Interlingua, Globien"
+keyword: "Constructed Language, Ligua Franca, Interlingua, JieKun Liu"
 url: "http://jiekun.ml"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://LiuJieKun-DL.github.io" # you code repository
@@ -65,8 +65,8 @@ gitalk:
   clientID: 6a11cab9f46fe57e56a1                            #生成的clientID
   clientSecret: 27ac9ec88d1ecd4c819f7423c95b4ca66e54156a    #生成的clientSecret
   repo:  globien.github.io    #仓库名称
-  owner: globien    #github用户名
-  admin: globien
+  owner: LiuJieKun-DL    #github用户名
+  admin: Jiekun Liu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -99,16 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Globien Wiki Dictionary",
-        href: "https://github.com/globien/globien.github.io/wiki"
+        title: "JieKun Liu's Website",
+        href: "http://jiekun.ml"
     },{
-        title: "Globien Community",
-        href: "https://globien.fandom.com/wiki/Globien_Wiki"
-    },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
-    },{
-        title: "知乎：Henri_Jambo",
-        href: "https://www.zhihu.com/people/henry-jiang-78" 
+        title: "知乎：ssssssssam",
+        href: "https://www.zhihu.com/people/ssssssssam"
     }
 ]
