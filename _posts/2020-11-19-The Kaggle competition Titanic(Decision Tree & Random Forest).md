@@ -106,7 +106,7 @@ estimator.fit(x_train,y_train)
 
 # 5) Model Evaluation
 
-#Method 1：Directly compare the true value and the predicted value
+# Method 1：Directly compare the true value and the predicted value
 
 y_predict = estimator.predict(x_test)
 
