@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 6a11cab9f46fe57e56a1                            #生成的clientID
   clientSecret: 27ac9ec88d1ecd4c819f7423c95b4ca66e54156a    #生成的clientSecret
-  repo:  globien.github.io    #仓库名称
+  repo:  LiuJieKun-DL.github.io   #仓库名称
   owner: LiuJieKun-DL    #github用户名
   admin: Jiekun Liu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
@@ -119,7 +119,7 @@ giteement:
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
   giteeID: 'LiuJieKun-DL'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: 'Jiekun Liu'
+  repo: 'jiekun-liu'
   gitment_oauth:
     client_id: '82b268bacf2ab9a18d9353bf5c7a5add66c41b9702a1e61add134a57e1469ec3'           #client ID
     client_secret: 'dc851c9b255705dce69bec00f4f9e7255f4fae96b30967f2e7d30dabc81d5aff'       #client secret
