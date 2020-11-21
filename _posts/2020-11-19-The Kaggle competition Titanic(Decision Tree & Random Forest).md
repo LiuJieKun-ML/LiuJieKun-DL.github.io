@@ -34,7 +34,8 @@ x.head()
 
 y.head()
 
-# 2、Data Processing
+# 2.
+# Data Processing
 
 ## 1）Dealing with the Null 
 
@@ -46,11 +47,13 @@ x = x.to_dict(orient="records")
 
 from sklearn.model_selection import train_test_split
 
-# 3、Divide data set
+# 3.
+# Divide data set
 
 x_train,x_test,y_train,y_test = train_test_split(x,y,random_state=22)
 
-# 4、Dictionary feature extraction
+# 4.
+# Dictionary feature extraction
 
 from sklearn.feature_extraction import DictVectorizer
 
