@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Computer Vision Project--Emojify
-subtitle:   Kaggle Competition
+subtitle:   Life is Short, I Use Python
 date:       2020-11-20
 author:     JieKun Liu
 header-img: img/the-first.png
