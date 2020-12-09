@@ -16,10 +16,12 @@ tags:
 
 
 class Node():
+
     def __init__ (self,elem):
         self.elem = elem
         self.next = None
 class SingleLinkList(object):
+
     def __init__ (self,node=None):
         self.head = node
     def is_empty(self):
@@ -92,6 +94,7 @@ class SingleLinkList(object):
 
 
 if __name__ == "__main__":
+
     ll = SingleLinkList()
     # print(ll.is_empty())
     # print(ll.length())
