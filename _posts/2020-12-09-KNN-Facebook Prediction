@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Using K Nearest Neighbors to Predict The Location of Clients From FaceBook
-subtitle:   KNN
+title:      KNN-Facebook Prediction
+subtitle:   Life is Short, I Use Python
 date:       2020-12-09
 author:     JieKun Liu
 header-img: img/the-first.png
@@ -9,6 +9,7 @@ catalog:   true
 tags:
     - Machine Learning
 ---
+
 # Prerequisite
 import pandas as pd
 
