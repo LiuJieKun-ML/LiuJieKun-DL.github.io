@@ -2,7 +2,7 @@
 layout:     post
 title:      SingleLinked List
 subtitle:   Data Structure
-date:       2020-11-20
+date:       2020-12-09
 author:     JieKun Liu
 header-img: img/the-first.png
 catalog:   true
