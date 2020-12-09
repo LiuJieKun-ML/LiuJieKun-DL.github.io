@@ -10,6 +10,9 @@ tags:
     - Machine Learning
 ---
 
+
+
+
 # Prerequisite
 import pandas as pd
 
@@ -62,29 +65,54 @@ from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test = train_test_split(x,y)
 
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.neighbors import KNeighborsClassifier
+
 from sklearn.model_selection import GridSearchCV
 
 # 3) Feature Engineering: Standardization
+
 transfer = StandardScaler()
+
 x_train = transfer.fit_transform(x_train)
+
 x_test = transfer.transform(x_test)
+
 # 4) KNN algorithm predictor
+
 estimator = KNeighborsClassifier()
+
 # Parameter preparation
+
 param_dict = {"n_neighbors":[3,5,7,9]}
+
 # Join grid search and cross validation
+
 estimator = GridSearchCV(estimator,param_grid=param_dict,cv=3)
+
 estimator.fit(x_train,y_train)
+
 # 5) Model evaluation
+
 ## Method1：Directly compare the true value and the predicted value
+
 y_predict = estimator.predict(x_test)
+
 print("y_predict\n",y_predict)
+
 print("Directly compare the true value and the predicted value\n",y_test==y_predict)
+
 ## Method2：Calculation accuracy
+
 score = estimator.score(x_test,y_test)
+
 print("Accuracy rate is:",score)
+
 print("Best Parameter is：\n",estimator.best_params_)
+
 print("Best result is：\n",estimator.best_score_)
+
 print("Best estimator is：\n",estimator.best_estimator_)
+
 print("Cross validation result：\n",estimator.cv_results_)
+
